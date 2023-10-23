@@ -18,10 +18,17 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-top: 90px;
 }
 /* Estilo do header */
 header{
     padding: 30px 5%;
+    position: fixed;
+    background-color: rgb(102, 31, 233);
+    top: 0;
+    z-index: 1000;
+    width: 100%;
+    height: 10%;
 }
 header .interface{
     display: flex;
