@@ -153,7 +153,7 @@ img.segunda{
     height: 600px;
     width: 1060px;
 }
-/* CONTATOS */
+/* REDES SOCIAIS */
 
 .contatos h3{
     color: white;
@@ -166,4 +166,13 @@ img.segunda{
 .contatos .endereco{
     color: white;
     list-style-type: none;
+}
+ /* CONTATO */
+
+ footer{
+    margin-left: 97px;
+    color: white;
+}
+footer h3{
+    font-size: 25px;
 }
