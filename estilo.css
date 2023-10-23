@@ -64,6 +64,7 @@ header .contato button{
 }
 button:hover{
     width: 120%;
+    padding-top: 15px;
     
 }
 
@@ -170,9 +171,28 @@ img.segunda{
  /* CONTATO */
 
  footer{
-    margin-left: 97px;
+    text-align: left;
     color: white;
+    padding: 97px;
 }
+
 footer h3{
-    font-size: 25px;
+    font-size: 25;
 }
+footer form{
+    display: flex;
+    flex-direction: column;
+}
+footer label{
+    margin-bottom: 5px;
+}
+
+footer input{
+    margin-bottom: 10px;
+}
+
+footer button{
+    height: 40px;
+    width: 60px;
+}
+
