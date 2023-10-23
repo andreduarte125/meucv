@@ -1,0 +1,151 @@
+/* Estilo global */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: rgb(102, 31, 233);
+    height: 100vh;
+}
+.interface{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/* Estilo do header */
+header{
+    padding: 30px 5%;
+}
+header .interface{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header a{
+    color: white;
+    text-decoration: none;
+}
+header nav ul{
+    list-style-type: none;
+}
+header nav ul li{
+    display: inline-block;
+    padding: 0 40px;
+}
+header .contato button{
+    padding: 10px 50px;
+    font-size: 12px;
+    font-weight: 500;
+    background-color: rgb(255, 255, 255);
+    border: 0;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+header a:hover{
+    color: azure;
+    transform: scale(1.00)
+}
+/* Estilo do topo */
+
+section .parte_inicial{
+    padding: 40px 0px;
+}
+section.parte_inicial.flex{
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+.parte_inicial h1{
+    color: white;
+    font-size: 60px;
+}
+.parte_inicial h2{
+    color: white;
+}
+.parte_inicial p{
+    color: white;
+    text-align: justify;
+    margin-right: 50px;
+
+}
+.imagem_topo img{
+    width: 90%;
+    height: auto;
+    border-radius: 230px;
+}
+
+/* SOBRE MIM */
+
+section .sobre_mim{
+    padding: 40px 0px;
+}
+
+.sobre_mim h2{
+    color: white;
+}
+
+.sobre_mim p{
+    color: white;
+    text-align: justify;
+}
+
+/* CARREIRA */
+section .carreira{
+    padding: 40px 0px;
+}
+.carreira h2{
+    color: white;
+    font-size: 25px;
+}
+
+.carreira ul{
+    color: white;
+    list-style-type: none;
+}
+
+/* ESPECIALIDADES */
+
+section .especialidades{
+    padding: 40px 0px;
+}
+.especialidades h2{
+    color: white;
+}
+/* PORTIFOLIO */
+section .portifolio{
+    padding: 40px 0px;
+}
+.portifolio h3{
+    color: white;
+    font-size: 25px;
+}
+.portifolio p{
+    color: white;
+}
+img.segunda{
+    height: 600px;
+    width: 1060px;
+}
+/* CONTATOS */
+
+.contatos h3{
+    color: white;
+    font-size: 25px;
+}
+.contatos .imagem_redes{
+    display: flex;
+    list-style-type: none;
+}
+.contatos .endereco{
+    color: white;
+    list-style-type: none;
+}
